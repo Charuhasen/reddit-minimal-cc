@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { RedditSlice } from "../features/redditPosts/redditSlice";
+import { RedditSlice } from "../lib/redditPosts/redditSlice";
 
 export const store = configureStore({
     reducer: {

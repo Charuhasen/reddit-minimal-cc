@@ -1,9 +1,12 @@
-import Image from "next/image";
+import NavBar from "./components/NavBar/NavBar";
+import HomePage from "./features/Home/Home";
 
 export default function Home() {
   return (
-    <div>
-      Hello
-    </div>
+    <>
+    <NavBar/>
+    <HomePage/>
+    {/* Add a footer */}
+    </>
   );
 }
